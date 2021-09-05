@@ -8,11 +8,13 @@
 
 After refactoring the code of the original Stock Analysis Workbook, I was able to reduce looping redundancies and reduce the program’s run time. Below is a picture of the captured run time of program before and after the refactoring for the Stock Analysis of 2017.
 
-![2017_Run_Time](resources/VBA_Challenge_2017.png), ![2017_Refactored_Run_Time](resources/VBA_Challenge_Refactored_2017.png)
+![2017_Run_Time](resources/VBA_Challenge_2017.png)
+![2017_Refactored_Run_Time](resources/VBA_Challenge_Refactored_2017.png)
 
 As you can see, the refactoring has done its job of reducing the program’s run time while having no impact on the output. You will notice a similar decrease in run time when using the refactored program to analyze the data from 2018 as well. 
 
-![2018_Run_Time](resources/VBA_Challenge_2018.png), ![2018_Refactored_Run_Time](resources/VBA_Challenge_Refactored_2018.png)
+![2018_Run_Time](resources/VBA_Challenge_2018.png)
+![2018_Refactored_Run_Time](resources/VBA_Challenge_Refactored_2018.png)
 
 The decrease in the run time is only marginal in the analysis of 12 stocks. But the refactored program is able to perform the same analysis on much larger data sets with any number of stocks, unlike the original version which would require additional code to be entered manually for every new stock ticker in the data set.
 
